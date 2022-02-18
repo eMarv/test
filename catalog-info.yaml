@@ -1,0 +1,19 @@
+apiVersion: backstage.io/v1alpha1
+
+kind: Component
+
+metadata:
+
+  name: test
+
+  annotations:
+
+    github.com/project-slug: eMarv/test
+
+spec:
+
+  type: shell
+
+  lifecycle: dev
+
+  owner: test-group
